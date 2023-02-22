@@ -247,7 +247,7 @@ p {
 }
 
 .navbar-brand img {
-  max-width: 230px;
+  max-width: 200px;
 }
 
 .navbar-toggler {
@@ -1495,7 +1495,7 @@ p {
 }
 
 .ud-widget .ud-footer-logo {
-  max-width: 230px;
+  max-width: 200px;
   display: block;
   margin-bottom: 20px;
 }
