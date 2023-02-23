@@ -814,7 +814,9 @@
               data-wow-delay=".2s"
             >
               <h3 class="ud-contact-form-title">Stuur ons een bericht</h3>
-              <form class="ud-contact-form">
+              <form class="ud-contact-form"
+                    action="https://formbold.com/s/3Lyjy"
+                    method="POST">
                 <div class="ud-form-group">
                   <label for="fullName">Naam*</label>
                   <input
@@ -848,6 +850,7 @@
                   ></textarea>
                 </div>
                 <div class="ud-form-group mb-0">
+                  <div class="g-recaptcha" data-sitekey="6LfgbqYkAAAAAMTTmM003A5Dga5BPqaWOzAp3sJo"></div>
                   <button type="submit" class="ud-main-btn">
                     Verzenden
                   </button>
@@ -1090,6 +1093,7 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".ud-menu-scroll");
