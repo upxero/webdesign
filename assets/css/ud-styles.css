@@ -1387,8 +1387,23 @@ p {
 
 .ud-contact-info-wrapper .ud-info-icon {
   font-size: 32px;
+  display: flex;
   color: var(--primary-color);
   margin-right: 24px;
+}
+
+.ud-info-content {
+  margin-left: 10px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.ud-info-content a {
+  color: var(--body-color);
+}
+
+.ud-info-content a:hover {
+  color: var(--primary-color);
 }
 
 .ud-contact-info-wrapper .ud-info-meta h5 {
