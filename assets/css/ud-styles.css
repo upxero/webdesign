@@ -1505,6 +1505,11 @@ p {
   right: 0;
 }
 
+.trustpilot-widget {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .ud-widget {
   margin-bottom: 50px;
 }
