@@ -12,7 +12,11 @@
       gtag('config', 'G-9KJD8XC3X4');
     </script>
     <!-- Google recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      }
     </script>
 
     <meta charset="UTF-8" />
@@ -956,14 +960,13 @@ Professionele websites op maat voor elke onderneming.">
                   ></textarea>
                 </div>
                 <div class="ud-form-group mb-0">
-                  <div class="g-recaptcha"
-                       data-sitekey="6LcHUackAAAAAMFRVmrkdhsbxjaOSsFf3YHzo1ac"
-                       data-callback="onRecaptchaSuccess"
-                       data-expired-callback="onRecaptchaResponseExpiry"
-                       data-error-callback="onRecaptchaError"
-                  ></div>
                   <br>
-                  <button type="submit" class="ud-main-btn">Verzenden</button>
+                  <button class="g-recaptcha"
+                          data-sitekey="6LcHUackAAAAAMFRVmrkdhsbxjaOSsFf3YHzo1ac"
+                          data-callback='onSubmit'
+                          data-action='submit'
+                          class="ud-main-btn"
+                  >Verzenden</button>
                 </div>
               </form>
             </div>
