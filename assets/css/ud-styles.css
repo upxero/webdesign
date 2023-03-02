@@ -201,6 +201,30 @@ p {
   background: var(--heading-color);
 }
 
+#btn-en, #btn-nl {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+#btn-en {
+  background-color: #007bff;
+}
+
+#btn-nl {
+  background-color: #13c296;
+}
+
+#btn-en:hover, #btn-nl:hover {
+  background-color: var(--heading-color);
+  color: #fff;
+}
+
 /* ===== Header CSS ===== */
 .ud-header {
   position: absolute;
@@ -298,6 +322,12 @@ p {
   }
   .navbar-collapse.show {
     display: block;
+  }
+  #btn-nl {
+    margin-left: 25px;
+  }
+  #btn-en {
+    margin-bottom: 25px;
   }
 }
 
@@ -1457,6 +1487,10 @@ p {
 
 .ud-contact-form-wrapper .ud-form-group {
   margin-bottom: 25px;
+}
+
+.g-recaptcha {
+  height: 100px;
 }
 
 .ud-contact-form-wrapper .ud-form-group label {
