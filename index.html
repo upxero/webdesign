@@ -226,37 +226,37 @@ Professionele websites op maat voor elke onderneming.">
             <div class="ud-about-content">
               <span id="title3" class="tag">Over Ons</span>
               <h2 id="text3">Professionele websites zonder grote investeringen</h2>
-              <p>
+              <p id="paragraph1">
                 Welkom bij ons webdesign bureau! Wij zijn een team van professionals die zich inzetten
                 om uw online aanwezigheid te verbeteren. Wij begrijpen dat het hebben van een professionele
                 website belangrijk is voor uw bedrijf, en daarom bieden wij maandelijkse betalingen aan voor
                 een lage prijs.
               </p>
 
-              <p>
+              <p id="paragraph2">
                 Ons geheim is het gebruik van veilige en professionele kant-en-klare HTML Landing Page Templates,
                 Bootstrap Themes, React Templates, Tailwind Templates, HTML Site Templates en UI Kits. Dit stelt
                 ons in staat om complete websites te bouwen zonder vanaf nul te hoeven coderen. Dit betekent dat
                 we snel en efficiënt kunnen werken, wat resulteert in een snelle levering van uw website.
               </p>
 
-              <p>
+              <p id="paragraph3">
                 Onze diensten zijn gericht op het creëren van websites die niet alleen esthetisch aantrekkelijk zijn,
                 maar ook functioneel en gebruiksvriendelijk. We zorgen ervoor dat uw website is geoptimaliseerd voor
                 zoekmachines, zodat potentiële klanten u gemakkelijk kunnen vinden.
               </p>
 
-              <p>
+              <p id="paragraph4">
                 Onze klanten variëren van kleine startups tot grote bedrijven, en we zijn trots op onze vermogen om
                 aan de behoeften van elk individu en bedrijf te voldoen. Onze klantenservice is uitstekend en we
                 zorgen ervoor dat u tevreden bent met het eindresultaat.
               </p>
-              <p>
+              <p id="paragraph5">
                 Dus, als u op zoek bent naar een professioneel webdesign bureau dat betaalbare maandelijkse betalingen
                 biedt, dan bent u bij ons aan het juiste adres. Neem contact met ons op om te zien hoe we u kunnen
                 helpen uw online aanwezigheid te verbeteren.
               </p>
-              <a href="#contact" class="ud-main-btn">Contacteer Ons</a>
+              <a id="button-paragraph" href="#contact" class="ud-main-btn">Contacteer Ons</a>
             </div>
           </div>
           <div class="ud-about-image">
@@ -273,9 +273,9 @@ Professionele websites op maat voor elke onderneming.">
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto text-center">
-              <span>Prijzen</span>
-              <h2>Onze Plannen</h2>
-              <p>
+              <span id="title4">Prijzen</span>
+              <h2 id="title41">Onze Plannen</h2>
+              <p id="text4">
                 Upxero maakt voor jou een professionele website voor een klein vast bedrag per maand.
               </p>
             </div>
@@ -358,7 +358,7 @@ Professionele websites op maat voor elke onderneming.">
                   <li>10 pagina's website</li>
                   <li>Binnen 10 werkdagen online</li>
                   <li>Incl. Hosting</li>
-                  <li>1 domeinnaam (.nl, .be, .eu)</li>
+                  <li>1 domeinnaam (.nl, .be, .com)</li>
                   <li>E-mail webmail/imap</li>
                   <li>Beveiligd SSL certificaat</li>
                   <li>Responsive website</li>
@@ -384,9 +384,9 @@ Professionele websites op maat voor elke onderneming.">
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <div class="ud-section-title text-center">
-              <span>Hoe werkt het</span>
-              <h2>In 3 stappen online</h2>
-              <p>
+              <span id="title5">Hoe werkt het</span>
+              <h2 id="title51">In 3 stappen online</h2>
+              <p id="text5">
                 Hoe gaan we het aanpakken? Hoe wordt het een succesvolle website? Dit doen wij in 3
                 simpele stappen.
               </p>
@@ -460,8 +460,8 @@ Professionele websites op maat voor elke onderneming.">
           <div class="col-xxl-6 col-xl-7 col-lg-8">
             <div class="ud-section-title text-center mb-5">
               <span>Portfolio</span>
-              <h2 class="mb-3 fw-bold">Onze klanten</h2>
-              <p class="text-lg">
+              <h2 id="title6" class="mb-3 fw-bold">Onze klanten</h2>
+              <p id="text6" class="text-lg">
                 Onze focus ligt op het bieden van uitstekende klantenservice en
                 het leveren van kwalitatief hoogwaardige resultaten.
               </p>
@@ -470,12 +470,17 @@ Professionele websites op maat voor elke onderneming.">
         </div>
         <div class="row">
           <div class="col-lg-12">
+            <div class="portfolio-menu">
+              <button data-filter="all" class="active">ALLES</button>
+              <button data-filter="website">WEBSITE</button>
+              <button data-filter="logo">LOGO</button>
+            </div>
             <!-- portfolio menu -->
           </div>
         </div>
         <!-- row -->
         <div class="row grid">
-          <div class="col-lg-4 col-sm-6" data-filter="branding">
+          <div class="col-lg-4 col-sm-6" data-filter="website">
             <div class="portfolio-style-one text-center">
               <div class="portfolio-image">
                 <img
@@ -498,7 +503,30 @@ Professionele websites op maat voor elke onderneming.">
             </div>
             <!-- single portfolio -->
           </div>
-          <div class="col-lg-4 col-sm-6" data-filter="marketing">
+          <div class="col-lg-4 col-sm-6" data-filter="logo">
+            <div class="portfolio-style-one text-center">
+              <div class="portfolio-image">
+                <img
+                        src="assets/images/portfolio/kj-events-logo.jpg"
+                        alt="Kj-events Logo"
+                />
+              </div>
+              <div class="portfolio-overlay d-flex align-items-center">
+                <div class="portfolio-content">
+                  <div class="portfolio-text">
+                    <h4 class="portfolio-title">
+                      <a href="https://www.kj-events.eu/" target="_blank">Kj-events Logo</a>
+                    </h4>
+                    <p class="text">
+                      Evenementenbedrijf voor BBQ en Filipijnse catering.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- single portfolio -->
+          </div>
+          <div class="col-lg-4 col-sm-6" data-filter="website">
             <div class="portfolio-style-one text-center">
               <div class="portfolio-image">
                 <img
@@ -521,7 +549,7 @@ Professionele websites op maat voor elke onderneming.">
             </div>
             <!-- single portfolio -->
           </div>
-          <div class="col-lg-4 col-sm-6" data-filter="branding">
+          <div class="col-lg-4 col-sm-6" data-filter="website">
             <div class="portfolio-style-one text-center">
               <div class="portfolio-image">
                 <img
@@ -537,6 +565,52 @@ Professionele websites op maat voor elke onderneming.">
                     </h4>
                     <p class="text">
                       Beautyshop met hoogwaardige Thaise huidverzorgingsproducten.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- single portfolio -->
+          </div>
+          <div class="col-lg-4 col-sm-6" data-filter="website">
+            <div class="portfolio-style-one text-center">
+              <div class="portfolio-image">
+                <img
+                        src="assets/images/portfolio/gp-rugtier.jpg"
+                        alt="G&P Rugtier"
+                />
+              </div>
+              <div class="portfolio-overlay d-flex align-items-center">
+                <div class="portfolio-content">
+                  <div class="portfolio-text">
+                    <h4 class="portfolio-title">
+                      <a href="https://www.gp-rugtier.nl/" target="_blank">www.gp-rugtier.nl</a>
+                    </h4>
+                    <p class="text">
+                      Sinds 2007 uw betrouwbare partner in metaalrecycling.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- single portfolio -->
+          </div>
+          <div class="col-lg-4 col-sm-6" data-filter="logo">
+            <div class="portfolio-style-one text-center">
+              <div class="portfolio-image">
+                <img
+                        src="assets/images/portfolio/gp-rugtier-logo.jpg"
+                        alt="G&P Rugtier Logo"
+                />
+              </div>
+              <div class="portfolio-overlay d-flex align-items-center">
+                <div class="portfolio-content">
+                  <div class="portfolio-text">
+                    <h4 class="portfolio-title">
+                      <a href="https://www.gp-rugtier.nl/" target="_blank">G&P Rugtier Logo</a>
+                    </h4>
+                    <p class="text">
+                      Sinds 2007 uw betrouwbare partner in metaalrecycling.
                     </p>
                   </div>
                 </div>
@@ -561,8 +635,8 @@ Professionele websites op maat voor elke onderneming.">
           <div class="col-lg-12">
             <div class="ud-section-title text-center mx-auto">
               <span>FAQ</span>
-              <h2>Meest gestelde vragen</h2>
-              <p>
+              <h2 id="title7">Meest gestelde vragen</h2>
+              <p id="text7">
                 De meest gestelde vragen hebben wij alvast beantwoord voor jou. Staat de vraag er niet tussen mail ons gerust.
               </p>
             </div>
@@ -714,8 +788,8 @@ Professionele websites op maat voor elke onderneming.">
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto text-center">
               <span>Testimonials</span>
-              <h2>Wat onze klanten zeggen</h2>
-              <p>
+              <h2 id="title8">Wat onze klanten zeggen</h2>
+              <p id="text8">
                 Klanten die positieve feedback hebben gegeven over onze diensten.
               </p>
             </div>
@@ -875,8 +949,8 @@ Professionele websites op maat voor elke onderneming.">
           <div class="col-xl-8 col-lg-7">
             <div class="ud-contact-content-wrapper">
               <div class="ud-contact-title">
-                <span>CONTACTEER ONS</span>
-                <h2>
+                <span id="title9">CONTACTEER ONS</span>
+                <h2 id="text9">
                   Vul het contactformulier in en we laten zo snel mogelijk van ons horen.
                 </h2>
               </div>
@@ -900,7 +974,7 @@ Professionele websites op maat voor elke onderneming.">
                         <a href="https://wa.me/+32467877935"><i class="lni lni-whatsapp"></i></a>
                       </div>
                       <div class="ud-info-icon">
-                        <a href="http://m.me/upxero" class="mailtoui"><i class="lni lni-facebook-messenger"></i></a>
+                        <a href="https://m.me/upxero" class="mailtoui"><i class="lni lni-facebook-messenger"></i></a>
                       </div>
                       <div class="ud-info-icon">
                         <a href="mailto:contact.upxero@gmail.com" class="mailtoui"><i class="lni lni-envelope"></i></a>
@@ -921,7 +995,7 @@ Professionele websites op maat voor elke onderneming.">
                     action="https://formbold.com/s/3Lyjy"
                     method="POST">
                 <div class="ud-form-group">
-                  <label for="fullName">Naam*</label>
+                  <label>Naam*</label>
                   <input
                     type="text"
                     name="fullName"
@@ -929,7 +1003,7 @@ Professionele websites op maat voor elke onderneming.">
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="email">E-mail*</label>
+                  <label>E-mail*</label>
                   <input
                     type="email"
                     name="email"
@@ -937,7 +1011,7 @@ Professionele websites op maat voor elke onderneming.">
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="phone">Telefoon*</label>
+                  <label>Telefoon*</label>
                   <input
                     type="text"
                     name="phone"
@@ -945,7 +1019,7 @@ Professionele websites op maat voor elke onderneming.">
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="message">Bericht*</label>
+                  <label>Bericht*</label>
                   <textarea
                     name="message"
                     rows="1"
@@ -1198,6 +1272,57 @@ Professionele websites op maat voor elke onderneming.">
     <!-- TrustBox script -->
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
     <!-- End TrustBox script -->
+
+    <!--====== gLightBox js ======-->
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3.1.0/dist/js/glightbox.min.js"></script>
+    <script>
+      const filters = document.querySelectorAll(".portfolio-menu button");
+
+      filters.forEach((filter) => {
+        filter.addEventListener("click", function () {
+          // ==== Filter btn toggle
+          let filterBtn = filters[0];
+          while (filterBtn) {
+            if (filterBtn.tagName === "BUTTON") {
+              filterBtn.classList.remove("active");
+            }
+            filterBtn = filterBtn.nextSibling;
+          }
+          this.classList.add("active");
+
+          // === filter
+          let selectedFilter = filter.getAttribute("data-filter");
+          let itemsToHide = document.querySelectorAll(
+                  `.grid .col-lg-4:not([data-filter='${selectedFilter}'])`
+          );
+          let itemsToShow = document.querySelectorAll(
+                  `.grid [data-filter='${selectedFilter}']`
+          );
+
+          if (selectedFilter == "all") {
+            itemsToHide = [];
+            itemsToShow = document.querySelectorAll(".grid [data-filter]");
+          }
+
+          itemsToHide.forEach((el) => {
+            el.classList.add("hide");
+            el.classList.remove("show");
+          });
+
+          itemsToShow.forEach((el) => {
+            el.classList.remove("hide");
+            el.classList.add("show");
+          });
+        });
+      });
+
+      //========= glightbox
+      const myGallery = GLightbox({
+        selector: ".glightbox",
+        type: "image",
+        width: 900,
+      });
+    </script>
 
     <script>
       // ==== for menu scroll

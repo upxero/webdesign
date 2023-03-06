@@ -20,6 +20,26 @@ const lang = {
         featureText4: "Regular updates to ensure your website stays up to date with the latest technologies and trends.",
         title3: "About Us",
         text3: "Professional websites without major investments",
+        paragraph1: "Welcome to our web design agency! We are a team of professionals dedicated to improving your online presence. We understand that having a professional website is crucial for your business, which is why we offer monthly payments at a low price.",
+        paragraph2: "Our secret is the use of secure and professional pre-built HTML Landing Page Templates, Bootstrap Themes, React Templates, Tailwind Templates, HTML Site Templates, and UI Kits. This enables us to build complete websites without having to code from scratch. This means we can work quickly and efficiently, resulting in fast delivery of your website.",
+        paragraph3: "Our services are focused on creating websites that are not only aesthetically appealing, but also functional and user-friendly. We ensure that your website is optimized for search engines, so potential customers can easily find you.",
+        paragraph4: "Our clients range from small startups to large businesses, and we pride ourselves on our ability to meet the needs of each individual and company. Our customer service is excellent, and we ensure that you are satisfied with the end result.",
+        paragraph5: "So, if you are looking for a professional web design agency that offers affordable monthly payments, then you have come to the right place. Contact us to see how we can help improve your online presence.",
+        buttonParagraph: "Contact Us",
+        title4: "Prices",
+        title41: "Our Plans",
+        text4: "Upxero will create a professional website for you for a small fixed monthly fee.",
+        title5: "How does it work",
+        title51: "In 3 Steps Online",
+        text5: "How are we going to approach this? How will it become a successful website? We do this in 3 simple steps.",
+        title6: "Our Customers",
+        text6: "Our focus is on providing excellent customer service and delivering high-quality results.",
+        title7: "Frequently Asked Questions",
+        text7: "We have already answered the most frequently asked questions for you. If your question is not listed, please feel free to email us.",
+        title8: "What Our Customers Say",
+        text8: "Customers who have given positive feedback about our services.",
+        title9: "CONTACT US",
+        text9: "Fill out the contact form and we will get back to you as soon as possible.",
         btnEn: "English",
         btnNl: "Nederlands"
     },
@@ -44,6 +64,26 @@ const lang = {
         featureText4: "Regelmatige updates om ervoor te zorgen dat jouw website up-to-date blijft met de nieuwste technologieën en trends.",
         title3: "Over Ons",
         text3: "Professionele websites zonder grote investeringen",
+        paragraph1: "Welkom bij ons webdesign bureau! Wij zijn een team van professionals die zich inzetten om uw online aanwezigheid te verbeteren. Wij begrijpen dat het hebben van een professionele website belangrijk is voor uw bedrijf, en daarom bieden wij maandelijkse betalingen aan voor een lage prijs.",
+        paragraph2: "Ons geheim is het gebruik van veilige en professionele kant-en-klare HTML Landing Page Templates, Bootstrap Themes, React Templates, Tailwind Templates, HTML Site Templates en UI Kits. Dit stelt ons in staat om complete websites te bouwen zonder vanaf nul te hoeven coderen. Dit betekent dat we snel en efficiënt kunnen werken, wat resulteert in een snelle levering van uw website.",
+        paragraph3: "Onze diensten zijn gericht op het creëren van websites die niet alleen esthetisch aantrekkelijk zijn, maar ook functioneel en gebruiksvriendelijk. We zorgen ervoor dat uw website is geoptimaliseerd voor zoekmachines, zodat potentiële klanten u gemakkelijk kunnen vinden.",
+        paragraph4: "Onze klanten variëren van kleine startups tot grote bedrijven, en we zijn trots op onze vermogen om aan de behoeften van elk individu en bedrijf te voldoen. Onze klantenservice is uitstekend en we zorgen ervoor dat u tevreden bent met het eindresultaat.",
+        paragraph5: "Dus, als u op zoek bent naar een professioneel webdesign bureau dat betaalbare maandelijkse betalingen biedt, dan bent u bij ons aan het juiste adres. Neem contact met ons op om te zien hoe we u kunnen helpen uw online aanwezigheid te verbeteren.",
+        buttonParagraph: "Contacteer Ons",
+        title4: "Prijzen",
+        title41: "Onze Plannen",
+        text4: "Upxero maakt voor jou een professionele website voor een klein vast bedrag per maand.",
+        title5: "Hoe werkt het",
+        title51: "In 3 Stappen Online",
+        text5: "Hoe gaan we het aanpakken? Hoe wordt het een succesvolle website? Dit doen wij in 3 simpele stappen.",
+        title6: "Onze Klanten",
+        text6: "Onze focus ligt op het bieden van uitstekende klantenservice en het leveren van kwalitatief hoogwaardige resultaten.",
+        title7: "Meest Gestelde Vragen",
+        text7: "De meest gestelde vragen hebben wij alvast beantwoord voor jou. Staat de vraag er niet tussen mail ons gerust.",
+        title8: "Wat Onze Klanten Zeggen",
+        text8: "Klanten die positieve feedback hebben gegeven over onze diensten.",
+        title9: "CONTACTEER ONS",
+        text9: "Vul het contactformulier in en we laten zo snel mogelijk van ons horen.",
         btnEn: "English",
         btnNl: "Nederlands"
     }
@@ -72,6 +112,26 @@ const feature4Element = document.getElementById("feature4");
 const featureText4Element = document.getElementById("feature-text4");
 const title3Element = document.getElementById("title3");
 const text3Element = document.getElementById("text3");
+const paragraph1Element = document.getElementById("paragraph1");
+const paragraph2Element = document.getElementById("paragraph2");
+const paragraph3Element = document.getElementById("paragraph3");
+const paragraph4Element = document.getElementById("paragraph4");
+const paragraph5Element = document.getElementById("paragraph5");
+const buttonParagraphElement = document.getElementById("button-paragraph");
+const title4Element = document.getElementById("title4");
+const title41Element = document.getElementById("title41");
+const text4Element = document.getElementById("text4");
+const title5Element = document.getElementById("title5");
+const title51Element = document.getElementById("title51");
+const text5Element = document.getElementById("text5");
+const title6Element = document.getElementById("title6");
+const text6Element = document.getElementById("text6");
+const title7Element = document.getElementById("title7");
+const text7Element = document.getElementById("text7");
+const title8Element = document.getElementById("title8");
+const text8Element = document.getElementById("text8");
+const title9Element = document.getElementById("title9");
+const text9Element = document.getElementById("text9");
 const btnEnElement = document.getElementById("btn-en");
 const btnNlElement = document.getElementById("btn-nl");
 
@@ -97,6 +157,26 @@ function setLanguage(langCode) {
     featureText4Element.innerText = lang[currentLang].featureText4;
     title3Element.innerText = lang[currentLang].title3;
     text3Element.innerText = lang[currentLang].text3;
+    paragraph1Element.innerText = lang[currentLang].paragraph1;
+    paragraph2Element.innerText = lang[currentLang].paragraph2;
+    paragraph3Element.innerText = lang[currentLang].paragraph3;
+    paragraph4Element.innerText = lang[currentLang].paragraph4;
+    paragraph5Element.innerText = lang[currentLang].paragraph5;
+    buttonParagraphElement.innerText = lang[currentLang].buttonParagraph;
+    title4Element.innerText = lang[currentLang].title4;
+    title41Element.innerText = lang[currentLang].title41;
+    text4Element.innerText = lang[currentLang].text4;
+    title5Element.innerText = lang[currentLang].title5;
+    title51Element.innerText = lang[currentLang].title51;
+    text5Element.innerText = lang[currentLang].text5;
+    title6Element.innerText = lang[currentLang].title6;
+    text6Element.innerText = lang[currentLang].text6;
+    title7Element.innerText = lang[currentLang].title7;
+    text7Element.innerText = lang[currentLang].text7;
+    title8Element.innerText = lang[currentLang].title8;
+    text8Element.innerText = lang[currentLang].text8;
+    title9Element.innerText = lang[currentLang].title9;
+    text9Element.innerText = lang[currentLang].text9;
     btnEnElement.innerText = lang[currentLang].btnEn;
     btnNlElement.innerText = lang[currentLang].btnNl;
 }
