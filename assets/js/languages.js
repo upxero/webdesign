@@ -48,7 +48,7 @@ const lang = {
         navAbout: "Over",
         navContact: "Contact",
         navPricing: "Prijzen",
-        title1: "Website laten maken zonder opstartkosten?!",
+        title1: "Website laten maken zonder opstartkosten?",
         text1: "Blijf altijd up-to-date: onze website per maand-service houdt jouw online aanwezigheid fris en actueel.",
         title2: "Website Per Maand",
         text2: "Een complete online aanwezigheid zonder de hoge kosten. Geen zorgen over technische details, wij ontwerpen en beheren jouw website elke maand voor jou.",
